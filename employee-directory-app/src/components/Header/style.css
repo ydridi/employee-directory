@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: navy;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid red;
+    font-size: 10px;
+  }
