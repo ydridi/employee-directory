@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="header">
             <h3>Employee Directory</h3>
-            <p>Change the text once it has been completed.</p>
+            <p>Change the text when it is completed.</p>
         </header>
     );
 }
