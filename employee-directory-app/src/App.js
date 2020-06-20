@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import SearchResults from "./components/SearchResults";
 import employees from "./employees.json";
 import Container from "./components/Container";
+import EmployeeRef from "./components/EmployeeRef";
+
 
 
 class App extends React.Component {
@@ -72,7 +74,7 @@ class App extends React.Component {
               />
             </div>
           </form>
-         
+          <EmployeeRef employees={this.state.results} />
           <SearchResults employees={this.state.results} />
         </Container>
       </Wrapper>
